@@ -9,7 +9,7 @@ class Message : public ms::TextWriterBase<char> {
 public:
 
     Message(u32, HeapType heapType);
-    virtual ~Message();
+    ~Message();
 
     char _164[316];
 
